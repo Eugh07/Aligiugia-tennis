@@ -262,7 +262,7 @@ if __name__ == "__main__":
         logging.info("Fuori dalla finestra di monitoraggio. Esco.")
         sys.exit(0)
 
-    logging.info("Market Hunter Tennis (Lunedì) started")
+    logging.info("Market Hunter Tennis (Martedì) started")
 
     state = load_json("state.json")
     bets = load_json("bets.json", [])
