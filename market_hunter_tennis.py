@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Market Hunter Tennis – Lunedì Edition
+Market Hunter Tennis – Martedì Edition
 """
 
 import os, json, csv, logging, requests, sys
