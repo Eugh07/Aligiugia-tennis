@@ -22,7 +22,7 @@ TARGET_WEEKDAY = 1   # lunedì
 
 def is_monitoring_window():
     now = datetime.utcnow()
-    if now.weekday() != TARGET_WEEKDAY:
+    if now.weekday() != 1:   # martedì
         return False
     if not (12 <= now.hour <= 20):
         return False
