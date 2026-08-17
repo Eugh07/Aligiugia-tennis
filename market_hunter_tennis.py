@@ -18,13 +18,13 @@ MAX_CRASH_ODD = 1.80
 QUOTA_MINIMA_DOPO_CRASH = 1.30
 HOURS_BEFORE_KICKOFF = 2
 
-TARGET_WEEKDAY = 1   # lunedì
+TARGET_WEEKDAY = 1   
 
 def is_monitoring_window():
     now = datetime.utcnow()
     if now.weekday() != 1:   # martedì
         return False
-    if not (12 <= now.hour < 20):
+    if not (16 <= now.hour <= 23):
         return False
     return True
 
